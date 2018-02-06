@@ -1,0 +1,62 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.texto{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.logo{
+    position: fixed;
+    margin-top: 45px;
+    left: 50%;
+    height: 67px;
+    width: auto;
+    transform: translate(-50%, -50%); 
+    transition: 200ms ease-in-out;
+    z-index: 1;
+}
+
+.logo:hover{
+    transform: translate(-50%, -50%) rotate(-180deg);
+}
+
+.divuno{
+	margin-top: 80px;
+	background-color: blueviolet;
+}
+
+.uluno{
+	padding: 30px;
+}
+
+.bullet{
+    list-style-type: none;
+}
+
+.item{
+    color: white;
+	text-decoration: none;
+    font-size: 30px;
+}
+
+.item:hover{
+	text-decoration: underline;
+}
+
+.divdos{
+}
+
+.imgyo{
+	width: 300px;
+}
+
+.imgpaisaje{
+	width: 100%;
+	height: auto
+}
